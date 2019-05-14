@@ -26,7 +26,7 @@ GROUP BY insurance_company_id
 ORDER BY deductible DESC;
 
 /* Query_3 
-Query shows the days most patients check in */
+Query shows the days most patients check in. Created by me*/
 
 USE hospital_db;
 
@@ -44,7 +44,7 @@ HAVING day_count > 4)c)
 ORDER BY check_in_day;
 
 /* Query_4
-Query that determines the most and least popular insurance company among patients */
+Query that determines the most and least popular insurance company among patients. Created by me*/
 
 USE hospital_db;
 
@@ -87,7 +87,7 @@ FROM
 ) AS least_popular_company;
 
 /* Query_5
-Query to see if more doctors should be hired in a specialization */
+Query to see if more doctors should be hired in a specialization. Created by me*/
 
 USE hospital_db;
 
