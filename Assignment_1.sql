@@ -1,4 +1,5 @@
-/* For this assignment, the instructions were to write queries that replicate the tables in the assignment_1_questions file */
+/* For this assignment, the instructions were to write queries that replicate the tables in the INST 327 - Assignment 1 - Questions.pdf 
+file */
 /*Query 1*/
 USE EX;
 SELECT CONCAT(customer_last_name,', ', customer_first_name) AS customer_name, customer_address AS customer_address_line1,
